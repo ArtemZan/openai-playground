@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>GPT-5 Stream Chat</title>
+<link rel="stylesheet" href="/index.css">
+</head>
+<body>
+<div class="app">
+<header class="app__header">GPT-5 Stream Chat</header>
+<main id="messages" class="messages" aria-live="polite"></main>
+<form id="chat-form" class="composer" autocomplete="off">
+<textarea id="prompt" class="composer__input" rows="1" placeholder="Type a message..." required></textarea>
+<button id="send" class="composer__send" type="submit" aria-label="Send">Send</button>
+</form>
+</div>
+<script src="/app.js" type="module"></script>
+</body>
+</html>
